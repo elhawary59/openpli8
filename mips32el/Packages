@@ -6259,6 +6259,229 @@ HomePage: http://directory.fsf.org/project/libgcrypt/
 License: GPLv3+
 Priority: optional
 
+Package: dvb-apps-dbg
+Version: 1.1.1-r0
+Recommends: libc6-dbg
+Section: devel
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6d9aa289981878b7d7db25663e53ee3e
+Size: 726
+Filename: dvb-apps-dbg_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: Linux DVB API applications and utilities - Debugging files
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
+License: GPLv2
+Priority: optional
+
+Package: dvb-apps-dev
+Version: 1.1.1-r0
+Depends: dvb-apps (= 1.1.1-r0)
+Recommends: libc6-dev, libdvbapi-dev, libdvbcfg-dev, libdvben50221-dev, libdvbsec-dev, libucsi-dev
+Section: devel
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d162a6d1900defc0f60e82867842eb09
+Size: 72984
+Filename: dvb-apps-dev_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: Linux DVB API applications and utilities - Development files
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
+License: GPLv2
+Priority: optional
+
+Package: dvb-apps
+Version: 1.1.1-r0
+Depends: libc6 (>= 2.30), libdvbapi, libdvbcfg, libdvben50221, libdvbsec, libucsi
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: deca0e0de08d7e0ce29a1db0957d7060
+Size: 109174
+Filename: dvb-apps_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: Linux DVB API applications and utilities
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
+License: GPLv2
+Priority: optional
+
+Package: dvb-azap
+Version: 1.1.1-r0
+Depends: libc6 (>= 2.30)
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a8bfd791b62d30563ab360671f14a813
+Size: 6408
+Filename: dvb-azap_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: Linux DVB API applications and utilities
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
+License: GPLv2
+Priority: optional
+
+Package: dvb-czap
+Version: 1.1.1-r0
+Depends: libc6 (>= 2.30)
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 83caffe4f28aa1202b2b57a0d25c4b57
+Size: 7048
+Filename: dvb-czap_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: Linux DVB API applications and utilities
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
+License: GPLv2
+Priority: optional
+
+Package: dvb-evtest-dbg
+Version: 1.1.1-r0
+Recommends: libc6-dbg
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 57aee56b7457932f9e4d35dffc55177e
+Size: 301130
+Filename: dvb-evtest-dbg_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: Linux DVB API applications and utilities
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
+License: GPLv2
+Priority: optional
+
+Package: dvb-femon
+Version: 1.1.1-r0
+Depends: libc6 (>= 2.30), libdvbapi
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 24165d14a435dda786ed47abcd1b2f41
+Size: 3586
+Filename: dvb-femon_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: Linux DVB API applications and utilities
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
+License: GPLv2
+Priority: optional
+
+Package: dvb-scan-data
+Version: 1.1.1-r0
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f2bbfeb5523a3972b4fe85633a996d90
+Size: 774
+Filename: dvb-scan-data_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: Linux DVB API applications and utilities
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
+License: GPLv2
+Priority: optional
+
+Package: dvb-scan
+Version: 1.1.1-r0
+Depends: libc6 (>= 2.30), libdvbapi, libdvbcfg, libdvbsec
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e4cb9141dc0a8855e48bd95927300b56
+Size: 22282
+Filename: dvb-scan_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: Linux DVB API applications and utilities
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
+License: GPLv2
+Priority: optional
+
+Package: dvb-szap
+Version: 1.1.1-r0
+Depends: libc6 (>= 2.30)
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 930070fd803c83f89e8a992336ebd64c
+Size: 7588
+Filename: dvb-szap_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: Linux DVB API applications and utilities
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
+License: GPLv2
+Priority: optional
+
+Package: dvb-tzap
+Version: 1.1.1-r0
+Depends: libc6 (>= 2.30)
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 19f8701cd6e437f0475f0a1e42ffe156
+Size: 8972
+Filename: dvb-tzap_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: Linux DVB API applications and utilities
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
+License: GPLv2
+Priority: optional
+
+Package: dvb-zap-data
+Version: 1.1.1-r0
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c5280bfb0a49b1cca3dc9b6a7c4e115e
+Size: 17630
+Filename: dvb-zap-data_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: Linux DVB API applications and utilities
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
+License: GPLv2
+Priority: optional
+
+Package: dvbapp-tests
+Version: 1.1.1-r0
+Depends: libc6 (>= 2.30)
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b119bcdc0ab9f5639b492c3cfcfcd11c
+Size: 3450
+Filename: dvbapp-tests_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: Linux DVB API applications and utilities
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
+License: GPLv2
+Priority: optional
+
+Package: dvbdate
+Version: 1.1.1-r0
+Depends: libc6 (>= 2.30), libdvbapi, libucsi
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: aedbf95cd1924a7f0051628e12b731e0
+Size: 4234
+Filename: dvbdate_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: Linux DVB API applications and utilities
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
+License: GPLv2
+Priority: optional
+
 Package: dvblast-dbg
 Version: 1.0+git418+4270dca-r0
 Recommends: libc6-dbg, libev-dbg
@@ -6316,6 +6539,22 @@ Filename: dvblast_1.0+git418+4270dca-r0_mips32el.ipk
 Source: dvblast.bb
 Description: DVBlast is a simple and powerful MPEG-2/TS demux and streaming application
 OE: dvblast
+License: GPLv2
+Priority: optional
+
+Package: dvbnet
+Version: 1.1.1-r0
+Depends: libc6 (>= 2.30), libdvbapi
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ba0360af00768ee9c63ac9cc8d1689a3
+Size: 3556
+Filename: dvbnet_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: Linux DVB API applications and utilities
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
 License: GPLv2
 Priority: optional
 
@@ -6377,6 +6616,22 @@ Source: dvbsnoop.bb
 Description: DVB / MPEG stream analyzer
 OE: dvbsnoop
 License: GPLv2+
+Priority: optional
+
+Package: dvbtraffic
+Version: 1.1.1-r0
+Depends: libc6 (>= 2.30), libdvbapi
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 556d459dd5996fa6001799020b2b4dd8
+Size: 3400
+Filename: dvbtraffic_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: Linux DVB API applications and utilities
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
+License: GPLv2
 Priority: optional
 
 Package: dvd+rw-tools-dbg
@@ -7356,14 +7611,14 @@ License: GPLv2 & LGPLv2 & BSD & MIT
 Priority: optional
 
 Package: edid-decode-dbg
-Version: 1.0+git512+a004802-r0
+Version: 1.0+git514+fc91946-r0
 Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d3acd98f4348b9789d6787d0876ef1df
-Size: 293306
-Filename: edid-decode-dbg_1.0+git512+a004802-r0_mips32el.ipk
+MD5Sum: b1fed8dda012457b33309abf539a5576
+Size: 293680
+Filename: edid-decode-dbg_1.0+git514+fc91946-r0_mips32el.ipk
 Source: edid-decode.bb
 Description: EDID decoder and conformance tester - Debugging files
 OE: edid-decode
@@ -7371,15 +7626,15 @@ License: MIT
 Priority: optional
 
 Package: edid-decode-dev
-Version: 1.0+git512+a004802-r0
-Depends: edid-decode (= 1.0+git512+a004802-r0)
+Version: 1.0+git514+fc91946-r0
+Depends: edid-decode (= 1.0+git514+fc91946-r0)
 Recommends: libc6-dev, libgcc-s-dev, libstdc++-dev
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c57b4ade531cb6ec3a69d1a696451931
+MD5Sum: 3096ded01f48cf7c96faf4b0d0d2962a
 Size: 774
-Filename: edid-decode-dev_1.0+git512+a004802-r0_mips32el.ipk
+Filename: edid-decode-dev_1.0+git514+fc91946-r0_mips32el.ipk
 Source: edid-decode.bb
 Description: EDID decoder and conformance tester - Development files
 OE: edid-decode
@@ -7387,13 +7642,13 @@ License: MIT
 Priority: optional
 
 Package: edid-decode-doc
-Version: 1.0+git512+a004802-r0
+Version: 1.0+git514+fc91946-r0
 Section: doc
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c3a3fe55908a38998f52581912349f36
-Size: 4384
-Filename: edid-decode-doc_1.0+git512+a004802-r0_mips32el.ipk
+MD5Sum: 2dec2f48b125a5a58ca02d15ee41b737
+Size: 4386
+Filename: edid-decode-doc_1.0+git514+fc91946-r0_mips32el.ipk
 Source: edid-decode.bb
 Description: EDID decoder and conformance tester - Documentation files
 OE: edid-decode
@@ -7401,14 +7656,14 @@ License: MIT
 Priority: optional
 
 Package: edid-decode
-Version: 1.0+git512+a004802-r0
+Version: 1.0+git514+fc91946-r0
 Depends: libc6 (>= 2.30), libgcc1 (>= 9.2.0), libstdc++6 (>= 9.2.0)
 Section: base
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cb31e3ba4c2be1cb7eec308bf56bba48
-Size: 68010
-Filename: edid-decode_1.0+git512+a004802-r0_mips32el.ipk
+MD5Sum: d7fb200d5d1dd73976bdf696445f978b
+Size: 68244
+Filename: edid-decode_1.0+git514+fc91946-r0_mips32el.ipk
 Source: edid-decode.bb
 Description: EDID decoder and conformance tester
 OE: edid-decode
@@ -12636,13 +12891,13 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-plugin-extensions-youtube-dbg
-Version: 1+git642+c17dc71-r0
+Version: 1+git651+94dfe6d-r0
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c211180c52e6807b05e3e8dd7fc570c7
+MD5Sum: a8dff70b54c4ad422ef26f5220587734
 Size: 762
-Filename: enigma2-plugin-extensions-youtube-dbg_1+git642+c17dc71-r0_mips32el.ipk
+Filename: enigma2-plugin-extensions-youtube-dbg_1+git651+94dfe6d-r0_mips32el.ipk
 Source: enigma2-plugin-extensions-youtube.bb
 Description: Enigma2 plugin to manage your youtube account and watch videos - Debugging files
 OE: enigma2-plugin-extensions-youtube
@@ -12651,15 +12906,15 @@ License: PD
 Priority: optional
 
 Package: enigma2-plugin-extensions-youtube-dev
-Version: 1+git642+c17dc71-r0
-Depends: enigma2-plugin-extensions-youtube (= 1+git642+c17dc71-r0)
+Version: 1+git651+94dfe6d-r0
+Depends: enigma2-plugin-extensions-youtube (= 1+git651+94dfe6d-r0)
 Recommends: python-codecs-dev, python-core-dev, python-dev, python-json-dev, python-netclient-dev, python-pyopenssl-dev, python-twisted-web-dev, python-zlib-dev
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0a7d0bdf74d8d5ca58741bc777b1155d
-Size: 852
-Filename: enigma2-plugin-extensions-youtube-dev_1+git642+c17dc71-r0_mips32el.ipk
+MD5Sum: 6bd4314f3d7bd1991c03ff644d044333
+Size: 854
+Filename: enigma2-plugin-extensions-youtube-dev_1+git651+94dfe6d-r0_mips32el.ipk
 Source: enigma2-plugin-extensions-youtube.bb
 Description: Enigma2 plugin to manage your youtube account and watch videos - Development files
 OE: enigma2-plugin-extensions-youtube
@@ -12668,13 +12923,13 @@ License: PD
 Priority: optional
 
 Package: enigma2-plugin-extensions-youtube-src
-Version: 1+git642+c17dc71-r0
+Version: 1+git651+94dfe6d-r0
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fcd41e6cdca137925d227ca2c680ca4d
-Size: 25270
-Filename: enigma2-plugin-extensions-youtube-src_1+git642+c17dc71-r0_mips32el.ipk
+MD5Sum: 879b6d63bcdd17646172aba33ae1403f
+Size: 25412
+Filename: enigma2-plugin-extensions-youtube-src_1+git651+94dfe6d-r0_mips32el.ipk
 Source: enigma2-plugin-extensions-youtube.bb
 Description: Enigma2 plugin to manage your youtube account and watch videos - Source files
 OE: enigma2-plugin-extensions-youtube
@@ -12683,14 +12938,14 @@ License: PD
 Priority: optional
 
 Package: enigma2-plugin-extensions-youtube
-Version: 1+git642+c17dc71-r0
+Version: 1+git651+94dfe6d-r0
 Depends: python-codecs, python-core, python-json, python-netclient, python-pyopenssl, python-twisted-web, python-zlib
 Section: multimedia
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8f3e26afa46ca7c07328633652442986
-Size: 90048
-Filename: enigma2-plugin-extensions-youtube_1+git642+c17dc71-r0_mips32el.ipk
+MD5Sum: 7f8c7775d38f3708f70c245fc1918f3f
+Size: 90606
+Filename: enigma2-plugin-extensions-youtube_1+git651+94dfe6d-r0_mips32el.ipk
 Source: enigma2-plugin-extensions-youtube.bb
 Description: Enigma2 plugin to manage your youtube account and watch videos
 OE: enigma2-plugin-extensions-youtube
@@ -13582,32 +13837,32 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-softcams-oscam-dbg
-Version: git10591+a608d9d-r0
+Version: git10592+4218b7f-r0
 Recommends: libc6-dbg, libcrypto-dbg, libssl-dbg, libusb-1.0-dbg
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: de1c49ed326a4736d46bf0fa13f9bf52
-Size: 746
-Filename: enigma2-plugin-softcams-oscam-dbg_git10591+a608d9d-r0_mips32el.ipk
+MD5Sum: cb2a915659ef53906ffd3d00dda831ac
+Size: 748
+Filename: enigma2-plugin-softcams-oscam-dbg_git10592+4218b7f-r0_mips32el.ipk
 Source: enigma2-plugin-softcams-oscam.bb
-Description: enigma2-plugin-softcams-oscam version gitAUTOINC+a608d9d10c-r0 - Debugging files
+Description: enigma2-plugin-softcams-oscam version gitAUTOINC+4218b7fa0b-r0 - Debugging files
 OE: enigma2-plugin-softcams-oscam
 License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-softcams-oscam-dev
-Version: git10591+a608d9d-r0
-Depends: enigma2-plugin-softcams-oscam (= git10591+a608d9d-r0)
+Version: git10592+4218b7f-r0
+Depends: enigma2-plugin-softcams-oscam (= git10592+4218b7f-r0)
 Recommends: libc6-dev, libcrypto-dev, libssl-dev, libusb-1.0-dev, libusb-dev, openssl-dev, softcam-support-dev
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b5a90c3d386bc6a2e019ca1032f7b045
-Size: 792
-Filename: enigma2-plugin-softcams-oscam-dev_git10591+a608d9d-r0_mips32el.ipk
+MD5Sum: 82c93a60a7665dc9060d104647659d80
+Size: 794
+Filename: enigma2-plugin-softcams-oscam-dev_git10592+4218b7f-r0_mips32el.ipk
 Source: enigma2-plugin-softcams-oscam.bb
-Description: enigma2-plugin-softcams-oscam version gitAUTOINC+a608d9d10c-r0 - Development files
+Description: enigma2-plugin-softcams-oscam version gitAUTOINC+4218b7fa0b-r0 - Development files
 OE: enigma2-plugin-softcams-oscam
 License: GPLv3
 Priority: optional
@@ -13659,17 +13914,17 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-softcams-oscam
-Version: git10591+a608d9d-r0
+Version: git10592+4218b7f-r0
 Depends: libc6 (>= 2.30), libcrypto1.1 (>= 1.1.1g), libssl1.1 (>= 1.1.1g), libusb-1.0-0 (>= 1.0.22), softcam-support
 Recommends: enigma2-plugin-extensions-oscamstatus
 Section: base
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bdacdd216759aeffb2dddc6dfd449c59
-Size: 628254
-Filename: enigma2-plugin-softcams-oscam_git10591+a608d9d-r0_mips32el.ipk
+MD5Sum: 18c72936c9b028f02cae3d269c943dc5
+Size: 627958
+Filename: enigma2-plugin-softcams-oscam_git10592+4218b7f-r0_mips32el.ipk
 Source: enigma2-plugin-softcams-oscam.bb
-Description: enigma2-plugin-softcams-oscam version gitAUTOINC+a608d9d10c-r0
+Description: enigma2-plugin-softcams-oscam version gitAUTOINC+4218b7fa0b-r0
 OE: enigma2-plugin-softcams-oscam
 License: GPLv3
 Priority: optional
@@ -55395,6 +55650,70 @@ HomePage: https://www.samba.org/
 License: GPL-3.0+ & LGPL-3.0+ & GPL-2.0+
 Priority: optional
 
+Package: libdvbapi
+Version: 1.1.1-r0
+Depends: libc6 (>= 2.30)
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 357ee70f7bd1be754e0708d39c4b7ad7
+Size: 6300
+Filename: libdvbapi_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: DVB dvbapi package
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
+License: GPLv2
+Priority: optional
+
+Package: libdvbcfg
+Version: 1.1.1-r0
+Depends: libc6 (>= 2.30)
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 720e867d4eef58dbae5fd643d30a9b20
+Size: 4374
+Filename: libdvbcfg_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: DVB dvbcfg package
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
+License: GPLv2
+Priority: optional
+
+Package: libdvben50221
+Version: 1.1.1-r0
+Depends: libc6 (>= 2.30)
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 41d8aef4878069e8287e6cfda84bc9f7
+Size: 20276
+Filename: libdvben50221_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: DVB dvben50221 package
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
+License: GPLv2
+Priority: optional
+
+Package: libdvbsec
+Version: 1.1.1-r0
+Depends: libc6 (>= 2.30)
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 82096474712a01c9e40fb93616b0ce5a
+Size: 6708
+Filename: libdvbsec_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: DVB dvbsec package
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
+License: GPLv2
+Priority: optional
+
 Package: libdvbsi++-dbg
 Version: 0.3.9+git128+515a1b6-r0
 Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg
@@ -55734,6 +56053,22 @@ Description: Utilities and libraries for handling compiled object files
 OE: elfutils
 HomePage: https://sourceware.org/elfutils
 License: GPLv2 | LGPLv3+
+Priority: optional
+
+Package: libesg
+Version: 1.1.1-r0
+Depends: libc6 (>= 2.30)
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ada9193c168ae5a1586bc5ba434418ed
+Size: 4806
+Filename: libesg_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: DVB esg package
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
+License: GPLv2
 Priority: optional
 
 Package: libev-dbg
@@ -73751,6 +74086,22 @@ OE: libtuxtxt
 License: LGPLv2.1
 Priority: optional
 
+Package: libucsi
+Version: 1.1.1-r0
+Depends: libc6 (>= 2.30)
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5d1b3679f58cdf7bfb111fc1438a052e
+Size: 12712
+Filename: libucsi_1.1.1-r0_mips32el.ipk
+Source: dvb-apps_1.1.1.bb
+Description: DVB ucsi package
+OE: dvb-apps
+HomePage: http://www.linuxtv.org
+License: GPLv2
+Priority: optional
+
 Package: libudev1
 Version: 3.2.8-r0
 Depends: libc6 (>= 2.30)
@@ -87167,6 +87518,101 @@ HomePage: http://nfs.sourceforge.net/
 License: MIT & GPLv2+ & BSD
 Priority: optional
 
+Package: nodejs-dbg
+Version: 10.16.3-r0
+Recommends: libatomic-dbg, libc6-dbg, libcrypto-dbg, libgcc-s-dbg, libicui18n-dbg, libicuuc-dbg, libssl-dbg, libstdc++-dbg, libz-dbg
+Section: devel
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: feac44b2f88dcc70b83df478106c7b05
+Size: 158083030
+Filename: nodejs-dbg_10.16.3-r0_mips32el.ipk
+Source: nodejs_10.16.3.bb
+Description: nodejs version 10.16.3-r0 - Debugging files
+OE: nodejs
+HomePage: http://nodejs.org
+License: MIT & BSD & Artistic-2.0
+Priority: optional
+
+Package: nodejs-dev
+Version: 10.16.3-r0
+Depends: nodejs (= 10.16.3-r0)
+Recommends: bash-dev, icu-dev, libatomic-dev, libc6-dev, libcrypto-dev, libgcc-s-dev, libicui18n-dev, libicuuc-dev, libssl-dev, libstdc++-dev, libz-dev, openssl-dev, python-compiler-dev, python-core-dev, python-datetime-dev, python-misc-dev, python-multiprocessing-dev, python-shell-dev, python-subprocess-dev, python-textutils-dev
+Section: devel
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c8a9c5c2a04bf6d3f22b15bf1cbc66a2
+Size: 131522
+Filename: nodejs-dev_10.16.3-r0_mips32el.ipk
+Source: nodejs_10.16.3.bb
+Description: nodejs version 10.16.3-r0 - Development files
+OE: nodejs
+HomePage: http://nodejs.org
+License: MIT & BSD & Artistic-2.0
+Priority: optional
+
+Package: nodejs-doc
+Version: 10.16.3-r0
+Section: doc
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 76751dd3e12cdda0e3286ffa5d2608a8
+Size: 7176
+Filename: nodejs-doc_10.16.3-r0_mips32el.ipk
+Source: nodejs_10.16.3.bb
+Description: nodejs version 10.16.3-r0 - Documentation files
+OE: nodejs
+HomePage: http://nodejs.org
+License: MIT & BSD & Artistic-2.0
+Priority: optional
+
+Package: nodejs-npm
+Version: 10.16.3-r0
+Depends: bash, python-compiler, python-core, python-datetime, python-misc, python-multiprocessing, python-shell, python-subprocess, python-textutils
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e559068ae4e65f33e51abd892497b456
+Size: 2876342
+Filename: nodejs-npm_10.16.3-r0_mips32el.ipk
+Source: nodejs_10.16.3.bb
+Description: nodejs version 10.16.3-r0
+OE: nodejs
+HomePage: http://nodejs.org
+License: MIT & BSD & Artistic-2.0
+Priority: optional
+
+Package: nodejs-systemtap
+Version: 10.16.3-r0
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 19a58f25623e4cd88c2e6e56f0ae06c8
+Size: 1840
+Filename: nodejs-systemtap_10.16.3-r0_mips32el.ipk
+Source: nodejs_10.16.3.bb
+Description: nodejs version 10.16.3-r0
+OE: nodejs
+HomePage: http://nodejs.org
+License: MIT & BSD & Artistic-2.0
+Priority: optional
+
+Package: nodejs
+Version: 10.16.3-r0
+Depends: libatomic1 (>= 9.2.0), libc6 (>= 2.30), libcrypto1.1 (>= 1.1.1g), libgcc1 (>= 9.2.0), libicui18n64 (>= 64.2), libicuuc64 (>= 64.2), libssl1.1 (>= 1.1.1g), libstdc++6 (>= 9.2.0), libz1 (>= 1.2.11)
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cc5c59194b2380e7364f00a6f0d9a121
+Size: 3769952
+Filename: nodejs_10.16.3-r0_mips32el.ipk
+Source: nodejs_10.16.3.bb
+Description: nodejs version 10.16.3-r0
+OE: nodejs
+HomePage: http://nodejs.org
+License: MIT & BSD & Artistic-2.0
+Priority: optional
+
 Package: nscd
 Version: 2.30-r0
 Depends: libc6 (>= 2.30)
@@ -87740,13 +88186,13 @@ License: BSD
 Priority: optional
 
 Package: openpli-bootlogo-dbg
-Version: 20210202-r0
+Version: 20210204-r0
 Section: devel
 Architecture: mips32el
 Maintainer: PLi team
-MD5Sum: 1171b9ef21cdb512a98692c26e143d46
-Size: 652
-Filename: openpli-bootlogo-dbg_20210202-r0_mips32el.ipk
+MD5Sum: 4d540de224653e6999aebc553a0f5c01
+Size: 656
+Filename: openpli-bootlogo-dbg_20210204-r0_mips32el.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r0 - Debugging files
 OE: openpli-bootlogo
@@ -87754,15 +88200,15 @@ License: CC-BY-NC-ND-4.0
 Priority: required
 
 Package: openpli-bootlogo-dev
-Version: 20210202-r0
-Depends: openpli-bootlogo (= 20210202-r0)
+Version: 20210204-r0
+Depends: openpli-bootlogo (= 20210204-r0)
 Recommends: initscripts-dev, showiframe-dev, update-rc.d-dev
 Section: devel
 Architecture: mips32el
 Maintainer: PLi team
-MD5Sum: 85e1b9c3cb2dfc468ed036293515da04
-Size: 722
-Filename: openpli-bootlogo-dev_20210202-r0_mips32el.ipk
+MD5Sum: 31535a2145b7d9fed0b866dcc8f31799
+Size: 726
+Filename: openpli-bootlogo-dev_20210204-r0_mips32el.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r0 - Development files
 OE: openpli-bootlogo
@@ -87770,15 +88216,15 @@ License: CC-BY-NC-ND-4.0
 Priority: required
 
 Package: openpli-bootlogo
-Version: 20210202-r0
+Version: 20210204-r0
 Depends: showiframe
 Recommends: update-rc.d
 Section: base
 Architecture: mips32el
 Maintainer: PLi team
-MD5Sum: 901411ecf7e32542aa4fb188c87ba471
-Size: 348084
-Filename: openpli-bootlogo_20210202-r0_mips32el.ipk
+MD5Sum: 92c0482930ee6a71ab625eb1670da371
+Size: 192778
+Filename: openpli-bootlogo_20210204-r0_mips32el.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r0
 OE: openpli-bootlogo
@@ -107317,13 +107763,13 @@ License: BSD
 Priority: optional
 
 Package: python-websocket-dbg
-Version: 0.57.0+git941+bdfdf4d-r0
+Version: 0.57.0+git943+4c564d1-r0
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3d1d1c385818733283d8aa1e44ce19d1
+MD5Sum: 2ee0ed058fb7660e5633b7c29fbf82fd
 Size: 720
-Filename: python-websocket-dbg_0.57.0+git941+bdfdf4d-r0_mips32el.ipk
+Filename: python-websocket-dbg_0.57.0+git943+4c564d1-r0_mips32el.ipk
 Source: python-websocket_0.57.0.bb
 Description: Websocket client for Python - Debugging files
 OE: python-websocket
@@ -107332,15 +107778,15 @@ License: MIT
 Priority: optional
 
 Package: python-websocket-dev
-Version: 0.57.0+git941+bdfdf4d-r0
-Depends: python-websocket (= 0.57.0+git941+bdfdf4d-r0)
+Version: 0.57.0+git943+4c564d1-r0
+Depends: python-websocket (= 0.57.0+git943+4c564d1-r0)
 Recommends: python-core-dev, python-dev
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bdc5ec47ca0221ea9f72e98588058564
+MD5Sum: f5d077d3e154afe07c38c3238744495a
 Size: 764
-Filename: python-websocket-dev_0.57.0+git941+bdfdf4d-r0_mips32el.ipk
+Filename: python-websocket-dev_0.57.0+git943+4c564d1-r0_mips32el.ipk
 Source: python-websocket_0.57.0.bb
 Description: Websocket client for Python - Development files
 OE: python-websocket
@@ -107349,14 +107795,14 @@ License: MIT
 Priority: optional
 
 Package: python-websocket
-Version: 0.57.0+git941+bdfdf4d-r0
+Version: 0.57.0+git943+4c564d1-r0
 Depends: python-core
 Section: base
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 50e153d7e5c2105e86e2d7470bc56e7c
-Size: 50144
-Filename: python-websocket_0.57.0+git941+bdfdf4d-r0_mips32el.ipk
+MD5Sum: a0ba52729b9f0b8ffcdf272db23c8111
+Size: 50140
+Filename: python-websocket_0.57.0+git943+4c564d1-r0_mips32el.ipk
 Source: python-websocket_0.57.0.bb
 Description: Websocket client for Python
 OE: python-websocket
@@ -107582,13 +108028,13 @@ License: GPLv2+
 Priority: optional
 
 Package: python-youtube-dl-dbg
-Version: 1:0.0-18250-gb111a64-r0
+Version: 1:2021.02.04.1-r0
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 20c437c16c332c98c77b1090e2bf479b
-Size: 834
-Filename: python-youtube-dl-dbg_0.0-18250-gb111a64-r0_mips32el.ipk
+MD5Sum: f28f88bb7ee456cd403f05d3d28859e0
+Size: 830
+Filename: python-youtube-dl-dbg_2021.02.04.1-r0_mips32el.ipk
 Source: python-youtube-dl.bb
 Description: Download videos from YouTube (and more sites) - Debugging files
 OE: python-youtube-dl
@@ -107597,15 +108043,15 @@ License: LGPLv2.1
 Priority: optional
 
 Package: python-youtube-dl-dev
-Version: 1:0.0-18250-gb111a64-r0
-Depends: python-youtube-dl (= 1:0.0-18250-gb111a64-r0)
+Version: 1:2021.02.04.1-r0
+Depends: python-youtube-dl (= 1:2021.02.04.1-r0)
 Recommends: bash-completion-dev, libxml2-dev, python-argparse-dev, python-ctypes-dev, python-dev, python-email-dev, python-html-dev, python-subprocess-dev, python-unixadmin-dev
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 65aacdd400984176ec7022270912fd02
-Size: 934
-Filename: python-youtube-dl-dev_0.0-18250-gb111a64-r0_mips32el.ipk
+MD5Sum: 438dcc4553926d331d89f78cc6e84fd7
+Size: 930
+Filename: python-youtube-dl-dev_2021.02.04.1-r0_mips32el.ipk
 Source: python-youtube-dl.bb
 Description: Download videos from YouTube (and more sites) - Development files
 OE: python-youtube-dl
@@ -107614,13 +108060,13 @@ License: LGPLv2.1
 Priority: optional
 
 Package: python-youtube-dl-doc
-Version: 1:0.0-18250-gb111a64-r0
+Version: 1:2021.02.04.1-r0
 Section: doc
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 24db86b1054d576e35a29da8c640bca1
-Size: 936
-Filename: python-youtube-dl-doc_0.0-18250-gb111a64-r0_mips32el.ipk
+MD5Sum: b8a8e7bde24fb562790008966749f334
+Size: 930
+Filename: python-youtube-dl-doc_2021.02.04.1-r0_mips32el.ipk
 Source: python-youtube-dl.bb
 Description: Download videos from YouTube (and more sites) - Documentation files
 OE: python-youtube-dl
@@ -107629,13 +108075,13 @@ License: LGPLv2.1
 Priority: optional
 
 Package: python-youtube-dl-src
-Version: 1:0.0-18250-gb111a64-r0
+Version: 1:2021.02.04.1-r0
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b8b5256d67ede3aa815e7d757b940c7e
-Size: 979354
-Filename: python-youtube-dl-src_0.0-18250-gb111a64-r0_mips32el.ipk
+MD5Sum: 58b7cf2b4bce9baed1ed3e22ab4d7287
+Size: 980414
+Filename: python-youtube-dl-src_2021.02.04.1-r0_mips32el.ipk
 Source: python-youtube-dl.bb
 Description: Download videos from YouTube (and more sites) - Source files
 OE: python-youtube-dl
@@ -107644,14 +108090,14 @@ License: LGPLv2.1
 Priority: optional
 
 Package: python-youtube-dl
-Version: 1:0.0-18250-gb111a64-r0
+Version: 1:2021.02.04.1-r0
 Depends: python-argparse, python-ctypes, python-email, python-html, python-subprocess, python-unixadmin
 Section: devel/python
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6b6874c92b3ccc9cf11c73d33585957b
-Size: 1294404
-Filename: python-youtube-dl_0.0-18250-gb111a64-r0_mips32el.ipk
+MD5Sum: bbaf668f17ec4911a282cfbae71b57e6
+Size: 1295364
+Filename: python-youtube-dl_2021.02.04.1-r0_mips32el.ipk
 Source: python-youtube-dl.bb
 Description: Download videos from YouTube (and more sites)
 OE: python-youtube-dl
@@ -109112,6 +109558,71 @@ Source: v4l-utils_1.16.5.bb
 Description: v4l2 and IR applications
 OE: v4l-utils
 License: GPLv2 & LGPLv2.1
+Priority: optional
+
+Package: rclone-dbg
+Version: 1.x+git3351+c2635e3-r0
+Recommends: libc6-dbg
+Section: devel
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2ae54bbff95f7957f22f8f1dbb92c666
+Size: 6726700
+Filename: rclone-dbg_1.x+git3351+c2635e3-r0_mips32el.ipk
+Source: rclone.bb
+Description: rsync for cloud storage - Debugging files
+OE: rclone
+HomePage: https://rclone.org/
+License: MIT
+Priority: optional
+
+Package: rclone-dev
+Version: 1.x+git3351+c2635e3-r0
+Depends: rclone (= 1.x+git3351+c2635e3-r0)
+Recommends: libc6-dev
+Section: devel
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 066f523d14178835a4eaec45eb6bb6e7
+Size: 14565334
+Filename: rclone-dev_1.x+git3351+c2635e3-r0_mips32el.ipk
+Source: rclone.bb
+Description: rsync for cloud storage - Development files
+OE: rclone
+HomePage: https://rclone.org/
+License: MIT
+Priority: optional
+
+Package: rclone-staticdev
+Version: 1.x+git3351+c2635e3-r0
+Depends: rclone-dev (= 1.x+git3351+c2635e3-r0)
+Section: devel
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 014ca1d950d7ae0ff0e1837db0fbd7f8
+Size: 4796490
+Filename: rclone-staticdev_1.x+git3351+c2635e3-r0_mips32el.ipk
+Source: rclone.bb
+Description: rsync for cloud storage - Development files (Static Libraries)
+OE: rclone
+HomePage: https://rclone.org/
+License: MIT
+Priority: optional
+
+Package: rclone
+Version: 1.x+git3351+c2635e3-r0
+Depends: libc6 (>= 2.30)
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 289d1247a2b669b60f6a79c17655c851
+Size: 6623918
+Filename: rclone_1.x+git3351+c2635e3-r0_mips32el.ipk
+Source: rclone.bb
+Description: rsync for cloud storage
+OE: rclone
+HomePage: https://rclone.org/
+License: MIT
 Priority: optional
 
 Package: redsea-dbg
@@ -112548,8 +113059,8 @@ Version: 1.0-r0
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 54e66e7f71bc976760130ef779a8f7de
-Size: 682
+MD5Sum: b11cac197a5a54f3ca8ea15b6bec97d4
+Size: 680
 Filename: softcams-enigma2-meta-dbg_1.0-r0_mips32el.ipk
 Source: softcams-enigma2-meta.bb
 Description: softcams-enigma2-meta version 1.0-r0 - Debugging files
@@ -112564,7 +113075,7 @@ Recommends: enigma2-plugin-softcams-cccam-dev, enigma2-plugin-softcams-cccam209-
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5a1da01079ed3c9c6805106c7195c00d
+MD5Sum: fde46a5dceab5194701f5bb3d49a6f10
 Size: 776
 Filename: softcams-enigma2-meta-dev_1.0-r0_mips32el.ipk
 Source: softcams-enigma2-meta.bb
