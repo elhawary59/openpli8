@@ -13285,6 +13285,52 @@ OE: enigma2-plugin-softcams-mgcamd146
 License: CLOSED
 Priority: optional
 
+Package: enigma2-plugin-softcams-ncam-dbg
+Version: git10570+11e8472-r0
+Recommends: libc6-dbg, libcrypto-dbg, libssl-dbg, libusb-1.0-dbg
+Section: devel
+Architecture: mips32el
+Maintainer: Open Vision Developers
+MD5Sum: 3a004cfe2c2e59e240ce80600500c50d
+Size: 720
+Filename: enigma2-plugin-softcams-ncam-dbg_git10570+11e8472-r0_mips32el.ipk
+Source: enigma2-plugin-softcams-ncam.bb
+Description: enigma2-plugin-softcams-ncam version gitAUTOINC+11e8472ee8-r0 - Debugging files
+OE: enigma2-plugin-softcams-ncam
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-softcams-ncam-dev
+Version: git10570+11e8472-r0
+Depends: enigma2-plugin-softcams-ncam (= git10570+11e8472-r0)
+Recommends: libc6-dev, libcrypto-dev, libssl-dev, libusb-1.0-dev, libusb-dev, openssl-dev, softcam-support-dev
+Section: devel
+Architecture: mips32el
+Maintainer: Open Vision Developers
+MD5Sum: 1e7273d6591afb8a28c5506c4375daff
+Size: 768
+Filename: enigma2-plugin-softcams-ncam-dev_git10570+11e8472-r0_mips32el.ipk
+Source: enigma2-plugin-softcams-ncam.bb
+Description: enigma2-plugin-softcams-ncam version gitAUTOINC+11e8472ee8-r0 - Development files
+OE: enigma2-plugin-softcams-ncam
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-softcams-ncam
+Version: git10570+11e8472-r0
+Depends: libc6 (>= 2.30), libcrypto1.1 (>= 1.1.1g), libssl1.1 (>= 1.1.1g), libusb-1.0-0 (>= 1.0.22), softcam-support
+Section: base
+Architecture: mips32el
+Maintainer: Open Vision Developers
+MD5Sum: 32a0f0ca5feefb52bb1646c5281959e0
+Size: 701536
+Filename: enigma2-plugin-softcams-ncam_git10570+11e8472-r0_mips32el.ipk
+Source: enigma2-plugin-softcams-ncam.bb
+Description: enigma2-plugin-softcams-ncam version gitAUTOINC+11e8472ee8-r0
+OE: enigma2-plugin-softcams-ncam
+License: GPLv3
+Priority: optional
+
 Package: enigma2-plugin-softcams-oscam-dbg
 Version: git10592+4218b7f-r0
 Recommends: libc6-dbg, libcrypto-dbg, libssl-dbg, libusb-1.0-dbg
@@ -87566,52 +87612,6 @@ HomePage: http://www.openjpeg.org
 License: BSD
 Priority: optional
 
-Package: openpli-bootlogo-dbg
-Version: 20210213-r0
-Section: devel
-Architecture: mips32el
-Maintainer: PLi team
-MD5Sum: 18127f6b935a88c261714ff6b493f36a
-Size: 656
-Filename: openpli-bootlogo-dbg_20210213-r0_mips32el.ipk
-Source: openpli-bootlogo.bb
-Description: openpli-bootlogo version 1.0-r0 - Debugging files
-OE: openpli-bootlogo
-License: CC-BY-NC-ND-4.0
-Priority: required
-
-Package: openpli-bootlogo-dev
-Version: 20210213-r0
-Depends: openpli-bootlogo (= 20210213-r0)
-Recommends: initscripts-dev, showiframe-dev, update-rc.d-dev
-Section: devel
-Architecture: mips32el
-Maintainer: PLi team
-MD5Sum: 8ceba91022c1d90def1d4ff5aa0e346d
-Size: 726
-Filename: openpli-bootlogo-dev_20210213-r0_mips32el.ipk
-Source: openpli-bootlogo.bb
-Description: openpli-bootlogo version 1.0-r0 - Development files
-OE: openpli-bootlogo
-License: CC-BY-NC-ND-4.0
-Priority: required
-
-Package: openpli-bootlogo
-Version: 20210213-r0
-Depends: showiframe
-Recommends: update-rc.d
-Section: base
-Architecture: mips32el
-Maintainer: PLi team
-MD5Sum: ccd5b973470b2e4fc56cbe0e5866442e
-Size: 192734
-Filename: openpli-bootlogo_20210213-r0_mips32el.ipk
-Source: openpli-bootlogo.bb
-Description: openpli-bootlogo version 1.0-r0
-OE: openpli-bootlogo
-License: CC-BY-NC-ND-4.0
-Priority: required
-
 Package: openssh-dbg
 Version: 8.0p1-r0
 Recommends: libc6-dbg, libcrypt-dbg, libcrypto-dbg, libpam-dbg, libz-dbg
@@ -107406,84 +107406,6 @@ Source: python-yenc_0.4.0.bb
 Description: python-yenc version 0.4.0-ml1
 OE: python-yenc
 License: GPLv2+
-Priority: optional
-
-Package: python-youtube-dl-dbg
-Version: 1:0.0-18278-gf28f1b4-r0
-Section: devel
-Architecture: mips32el
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c6f4047440ada2e454247b833824ff70
-Size: 836
-Filename: python-youtube-dl-dbg_0.0-18278-gf28f1b4-r0_mips32el.ipk
-Source: python-youtube-dl.bb
-Description: Download videos from YouTube (and more sites) - Debugging files
-OE: python-youtube-dl
-HomePage: http://rg3.github.io/youtube-dl/
-License: LGPLv2.1
-Priority: optional
-
-Package: python-youtube-dl-dev
-Version: 1:0.0-18278-gf28f1b4-r0
-Depends: python-youtube-dl (= 1:0.0-18278-gf28f1b4-r0)
-Recommends: bash-completion-dev, libxml2-dev, python-argparse-dev, python-ctypes-dev, python-dev, python-email-dev, python-html-dev, python-subprocess-dev, python-unixadmin-dev
-Section: devel
-Architecture: mips32el
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 23d39bf02cb20bb068eb0c32d559b809
-Size: 936
-Filename: python-youtube-dl-dev_0.0-18278-gf28f1b4-r0_mips32el.ipk
-Source: python-youtube-dl.bb
-Description: Download videos from YouTube (and more sites) - Development files
-OE: python-youtube-dl
-HomePage: http://rg3.github.io/youtube-dl/
-License: LGPLv2.1
-Priority: optional
-
-Package: python-youtube-dl-doc
-Version: 1:0.0-18278-gf28f1b4-r0
-Section: doc
-Architecture: mips32el
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b41d215c1633e4d2ca84a6e192969ecf
-Size: 936
-Filename: python-youtube-dl-doc_0.0-18278-gf28f1b4-r0_mips32el.ipk
-Source: python-youtube-dl.bb
-Description: Download videos from YouTube (and more sites) - Documentation files
-OE: python-youtube-dl
-HomePage: http://rg3.github.io/youtube-dl/
-License: LGPLv2.1
-Priority: optional
-
-Package: python-youtube-dl-src
-Version: 1:0.0-18278-gf28f1b4-r0
-Section: devel
-Architecture: mips32el
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 288ada2e1abc52af08d9058904979c25
-Size: 981652
-Filename: python-youtube-dl-src_0.0-18278-gf28f1b4-r0_mips32el.ipk
-Source: python-youtube-dl.bb
-Description: Download videos from YouTube (and more sites) - Source files
-OE: python-youtube-dl
-HomePage: http://rg3.github.io/youtube-dl/
-License: LGPLv2.1
-Priority: optional
-
-Package: python-youtube-dl
-Version: 1:0.0-18278-gf28f1b4-r0
-Depends: python-argparse, python-ctypes, python-email, python-html, python-subprocess, python-unixadmin
-Section: devel/python
-Architecture: mips32el
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7c02c2ca9f4c0767fdf3424c5d1dd405
-Size: 1297098
-Filename: python-youtube-dl_0.0-18278-gf28f1b4-r0_mips32el.ipk
-Source: python-youtube-dl.bb
-Description: Download videos from YouTube (and more sites)
-OE: python-youtube-dl
-HomePage: http://rg3.github.io/youtube-dl/
-License: LGPLv2.1
 Priority: optional
 
 Package: python-zlib
